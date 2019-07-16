@@ -15,8 +15,8 @@ async function main() {
         const result = await rpc.get_block(300000);
         console.log(result.producer);
         console.log(result.timestamp);
-    } catch (error) {
-        console.log(error);
+    } catch (k) {
+        console.log(k);
     }
 }
 
